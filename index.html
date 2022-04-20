@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+    </head>
+    <link rel="stylesheet" href="./styles/navBar.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <style>
+        .moviePoster
+        {
+            display: none;
+        }
+    </style>
+    <body>
+        <header id="navBar">
+        </header>
+        <div id="slideshow">
+            <!--Show Slideshow here-->
+            <div class="moviePoster"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcdA-qZqOta5VFo2tXZuNIXGSVPgCFSRgdqA&usqp=CAU" alt=""></div>
+            <div class="moviePoster"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTiALRrxn0uFNuHQeceeDg4JCWhKtM1NojAw&usqp=CAU"></div>
+            <div class="moviePoster"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoa2ZrqAzuKhyi5HqWPIh_5rmOGCd98IUgAA&usqp=CAU" alt=""></div>
+            <div class="moviePoster"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaBfsrIMK_IIfLWDZXNBoA54Tem6ZetMKBmw&usqp=CAU" alt=""></div>
+            <div class="moviePoster"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBzmRcafpKtVKy5vwxVHKEeP1tkCQmJMkxeA&usqp=CAU" alt=""></div>
+            <div class="moviePoster"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6GJ08TQfTHCaXFqtiaUM_8Fuaz2YU67kZpw&usqp=CAU" alt=""></div>
+        </div>
+        <div id="sort-buttons">
+
+            <label for="sortByprice">Sort By Price</label>
+            <select  name="sortByprice" id="sortBtn">
+                <option value="lowtohi">Low To High</option>
+                <option value="hightolo">High To Low</option>
+            </select>
+        </div>
+        <div id="movies">
+            <!--Show list of movies here-->
+        </div>
+         <script src="./scripts/navBar.js"></script>
+         <script src="/scripts/index.js"></script>
+         
+    </body>
+    
+
+</html>

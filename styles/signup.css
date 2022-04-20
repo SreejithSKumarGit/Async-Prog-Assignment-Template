@@ -1,0 +1,14 @@
+#signupDiv
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        
+    }
+    #signupDiv >input
+    {
+        width: 250px;
+        height: 20px;
+        margin: auto;
+    }
